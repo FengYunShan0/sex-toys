@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- 引入自定义CSS文件 -->
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .site-footer {
+            background-color: black; /* 替换为你的黑色背景图片 */
+            background-size: cover;
+            color: #fff; /* 白色文字 */
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer-columns {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex-basis: 30%;
+            margin-bottom: 20px;
+        }
+
+        .social-icons {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .social-icons li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .social-icons a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .white-text {
+            color: #ffffff;
+        }
+
+        .footer-bottom {
+            padding-top: 50px;
+            border-top: 1px solid rgba(255, 255, 255, 0.6);
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- 页面其他内容 -->
+
+<footer class="site-footer">
+    <div class="footer-columns">
+        <div class="column">
+            <h4 class="white-text">关于我们</h4>
+            <p class="white-text">这里是公司简介的简短文字，可以提及公司愿景、使命或成立时间等。</p>
+        </div>
+
+        <div class="column contact-info">
+            <h4 class="white-text">联系方式</h4>
+            <ul class="white-text">
+                <li><i class="fas fa-map-marker-alt"></i> 地址：[公司详细地址]</li>
+                <li><i class="fas fa-phone"></i> 电话：[公司电话号码]</li>
+                <li><i class="fas fa-envelope"></i> 邮箱：[公司邮箱地址]</li>
+            </ul>
+        </div>
+
+        <div class="column social-media">
+            <h4 class="white-text">关注我们</h4>
+            <ul class="social-icons white-text">
+                <li><a href="[Facebook链接]"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="[Twitter链接]"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="[LinkedIn链接]"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="[Instagram链接]"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p class="white-text">&copy; [当前年份] [公司名称]. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
